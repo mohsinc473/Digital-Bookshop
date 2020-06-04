@@ -1,0 +1,36 @@
+ *{
+    font-family: Arial, Helvetica, sans-serif;
+} 
+.navbar{
+    background-color: lightcyan		;
+    font-size: large;
+    font-weight: 500;
+}
+.fot{
+    background-color: peru;
+}
+.ftli{
+    list-style-type: none;
+}
+.marg{
+    margin-right: 20px;
+
+}
+label{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+.signc{
+    margin-top: 50px;
+    
+}
+.checkout{
+    display: inline-block;
+}
+.tsty{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.align{
+    vertical-align: text-top;
+}

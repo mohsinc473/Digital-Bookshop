@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e0d18a2fea.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+</head>
+<body>
+    <!-- NavBar -->
+<nav class="navbar sticky-top navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="#">
+        <img src="Images/bok.png" width="120" height="65" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav mr-auto">
+      </ul>
+      <span class="navbar-text">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Categories
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item text-dark" href="#science">Science</a>
+                <a class="dropdown-item text-dark" href="#social science">Social Science</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item text-dark" href="#comic">Comics</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="AboutUs.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ContactUs.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="user.html"><i class="far fa-user"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cart.html"><i class="fas fa-cart-plus"></i></a>
+            </li>
+          </ul>
+      </span>
+    </div>
+  </nav>
+  <!-- NavBar -->
+  <!-- Carousel -->
+  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://mhealth-hub.org/wp-content/uploads/2020/03/banner2.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>COVID-19</h5>
+          <p>Updates on the COVID pandemic.</p>
+        </div>
+        
+      </div>
+      <div class="carousel-item">
+        <img src="https://www.rp.edu.sg/images/default-source/sas-images/about-sas/about-us/carousel-1.jpg?sfvrsn=b7c0e057_2" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Science</h5>
+          <p>Interact with the physical world more deeply</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="Images/Social-Sciences.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Social Science</h5>
+          <p>Study human societies and the relationships among individuals within those societies</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="https://i.ytimg.com/vi/efOXg8ijbaA/maxresdefault.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Comic Books</h5>
+          <p>Get your favourite comic books</p>
+        </div>
+      </div>
+
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <!-- Carousel --> 
+
+  <div class="container ">
+    <div class="row ">
+      <div class="col-sm-3"></div>
+      <div class="col-sm-6 d-flex justify-content-center text-center my-5 shadow-lg p-3 mb-5 bg-warning rounded ">
+        <h5>Get the latest updates on COVID-19. <br> <a class="btn btn-danger mt-3" target="_blank" href="http://covid.gov.pk/">COVID-19 Updates</a> </h5>
+      </div>
+      <div class="col-sm-3"></div>
+    </div>
+  </div>
+
+  <!-- Science -->
+<div class="container-fluid my-5">
+  <h1 id="science">Science</h1> <hr>
+  <!-- Card-1  -->
+  <div class="row">
+    <div class="col-sm-3 mx-5 my-3">
+      <div class="card" style="width: 18rem;">
+        <img src="https://www.eschoolnews.com/files/2016/12/computer-science-education-600x400.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Computer Science</h5>
+          <p class="card-text">Computer science is the study of processes that interact with data and that can be represented as data in the form of programs</p>
+          <a href="ComputerScience.html" class="btn btn-primary">Explore</a>
+        </div>
+      </div>
+    </div>
+  <!-- Card-2  -->
+    <div class="col-sm-3 mx-5 my-3">
+      <div class="card" style="width: 18rem;">
+        <img width="445px" height="194px" src="Images/mathematics.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Mathematics</h5>
+          <p class="card-text">Mathematics includes the study of such topics as quantity, structure, space, and change. It has no generally accepted definition</p>
+          <a href="Math.html" class="btn btn-primary">Explore</a>
+        </div>
+      </div>
+    </div>
+  <!-- Card-3  -->
+    <div class="col-sm-3 mx-5 my-3">
+      <div class="card" style="width: 18rem;">
+        <img width="445px" height="194px" src="Images/physics.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Physics</h5>
+          <p class="card-text">Physics studies matter, its motion and behavior through space and time, and the related entities of energy and force</p>
+          <a href="Physics.html" class="btn btn-primary">Explore</a>
+        </div>
+      </div>
+    </div>
+    <!-- Card-4  -->
+    <div class="col-sm-3 mx-5 my-3">
+      <div class="card" style="width: 18rem;">
+        <img width="445px" height="194px" src="Images/Biology.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Biology</h5>
+          <p class="card-text">Biology is the natural science that studies life and living organisms, including their physical structure, chemical processes, molecular interactions, physiological mechanisms, development and evolution.</p>
+          <a href="Biology.html" class="btn btn-primary">Explore</a>
+        </div>
+      </div>
+    </div>
+    <!-- Card-5  -->
+    <div class="col-sm-3 mx-5 my-3">
+      <div class="card" style="width: 18rem;">
+        <img width="445px" height="194px" src="Images/chemistry.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Chemistry</h5>
+          <p class="card-text">Chemistry involved with elements and compounds composed of atoms, molecules and ions: their composition, structure, properties, behavior and the changes they undergo during a reaction with other substances.</p>
+          <a href="Chemistry.html" class="btn btn-primary">Explore</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- Science -->
+
+  <!-- Social-Science -->
+<div class="container-fluid my-5">
+  <h1 id="social science">Social Science</h1> <hr>
+  <!-- Card-1  -->
+  <div class="row">
+    <div class="col-sm-3 mx-5 my-3">
+      <div class="card" style="width: 18rem;">
+        <img width="445px" height="194px" src="Images/Anthropology.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Anthropology</h5>
+          <p class="card-text">Anthropology is the scientific study of humans behavior and societies in the past and cultural meaning, including norms and values. Linguistic anthropology studies how language influences social life</p>
+          <a href="Anthropology.html" class="btn btn-primary">Explore</a>
+        </div>
+      </div>
+    </div>
+  <!-- Card-2  -->
+    <div class="col-sm-3 mx-5 my-3">
+      <div class="card" style="width: 18rem;">
+        <img width="445px" height="194px" src="Images/Psychology.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Psychology</h5>
+          <p class="card-text">Psychology is the science of behavior and mind. Psychology includes the study of conscious and unconscious phenomena, as well as feeling and thought. It is an academic discipline of immense scope.</p>
+          <a href="Psychology.html" class="btn btn-primary">Explore</a>
+        </div>
+      </div>
+    </div>
+  <!-- Card-3  -->
+    <div class="col-sm-3 mx-5 my-3">
+      <div class="card" style="width: 18rem;">
+        <img width="445px" height="194px" src="Images/Economics.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Economics</h5>
+          <p class="card-text">Economics is the social science that studies the production, distribution, and consumption of goods and services. Economics focuses on the behaviour and interactions of economic agents and how economies work.</p>
+          <a href="Economics.html" class="btn btn-primary">Explore</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Social-Science -->
+
+ <!-- Comic-Books -->
+ <div class="container-fluid my-5 Comic">
+  <h1 id="comic">Comic Books</h1> <hr>
+  <!-- Card-1  -->
+  <div class="row">
+    <div class="col-sm-3 mx-5 my-3">
+      <div class="card" style="width: 18rem;">
+        <img width="445px" height="194px" src="https://imgs.michaels.com/MAM/assets/1/5E3C12034D34434F8A9BAAFDDF0F8E1B/img/844C975B87174967B8212B302809D7C1/D219529S_1.jpg?fit=inside|540:540" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Marvel</h5>
+          <p class="card-text">Read about your favourite superheroes from marvel universe and make your bond more stronger with them.</p>
+          <a href="Marvel.html" class="btn btn-primary">Explore</a>
+        </div>
+      </div>
+    </div>
+  <!-- Card-2  -->
+    <div class="col-sm-3 mx-5 my-3">
+      <div class="card" style="width: 18rem;">
+        <img width="445px" height="194px" src="https://vignette.wikia.nocookie.net/marvel_dc/images/0/02/Justice_League_of_America_Vol_2_1_Full.jpg/revision/latest?cb=20171010185905" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">DC</h5>
+          <p class="card-text">Read about your favourite superheroes from dc universe and make your bond more stronger with them.</p>
+          <a href="DC.html" class="btn btn-primary">Explore</a>
+        </div>
+      </div>
+    </div>
+  <!-- Card-3  -->
+    <div class="col-sm-3 mx-5 my-3">
+      <div class="card" style="width: 18rem;">
+        <img width="445px" height="194px" src="https://www.marj3.com/wp-content/uploads/2018/03/7-tips-learning-japanese-manga.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Manga</h5>
+          <p class="card-text">Manga are created in Japan.Study more deeply about their long and complex prehistory in earlier Japanese art.</p>
+          <a href="Manga.html" class="btn btn-primary">Explore</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Comic-Books -->
+
+<!-- Footer -->
+<div class="container-fluid fot">
+  <div class="container fot">
+    <div class="row">
+      <div class="col-sm-5 my-5">
+        <p class="font-weight-bolder">Head Office, <br>20<sup>th</sup> Floor, Apartment # 123, Centaurus Mall, Islamabad.</p>
+        <ul class="ftli">
+          <li class="font-weight-bolder"> <span style="color: darkslategray;"><i class="fas fa-phone-alt marg"></i></span> 051-2337127</li>
+          <li class="font-weight-bolder"> <span style="color: darkslategray;"><i class="fas fa-mobile marg"></i></span>+92-3005280732</li>
+          <li class="font-weight-bolder"> <span style="color: darkslategray;"><i class="far fa-envelope marg"></i></span><a class="text-dark" href="mailto:mohsinsheikh473@gmail.com">mohsinsheikh473@gmail.com</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-4 my-4">
+        <h3>Coming Soon</h3>
+        <img width="183" height="124" src="https://www.bookshop.pk/wp-content/uploads/2019/12/bookshop-app.png" alt="">
+      </div>
+      <div class="col-sm-2 my-5">
+        <i class="fab fa-facebook-f fa-2x"> faceboot</i><br><br>
+        <i class="fab fa-twitter fa-2x"> twitter</i><br><br>
+        <i class="fab fa-whatsapp fa-2x"> whatsapp</i>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Copyright -->
+<div class="container-fluid bg-dark">
+  <div class="row">
+    <div class="col m-2">
+      <P class="text-light">© Copyright 2020 . All Rights Reserved At Digital Book Shop</P>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
